@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "A:\\Android\\AndroidStudioProjects\\GuiJuTianYuan\\zxing\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xxhdpi-v4\\pic.png",
+        "source": "A:\\Android\\AndroidStudioProjects\\GuiJuTianYuan\\zxing\\build\\intermediates\\bundles\\debug\\res\\mipmap-xxhdpi-v4\\pic.png"
+    },
+    {
+        "merged": "D:\\Android\\AndroidStudioProjects\\GuiJuTianYuan\\zxing\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xxhdpi-v4\\qrcode_default_scan_line.png",
+        "source": "D:\\Android\\AndroidStudioProjects\\GuiJuTianYuan\\zxing\\build\\intermediates\\bundles\\debug\\res\\mipmap-xxhdpi-v4\\qrcode_default_scan_line.png"
+    },
+    {
+        "merged": "D:\\Android\\AndroidStudioProjects\\GuiJuTianYuan\\zxing\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xxhdpi-v4\\pic.png",
+        "source": "D:\\Android\\AndroidStudioProjects\\GuiJuTianYuan\\zxing\\build\\intermediates\\bundles\\debug\\res\\mipmap-xxhdpi-v4\\pic.png"
+    },
+    {
+        "merged": "A:\\Android\\AndroidStudioProjects\\GuiJuTianYuan\\zxing\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xxhdpi-v4\\light.png",
+        "source": "A:\\Android\\AndroidStudioProjects\\GuiJuTianYuan\\zxing\\build\\intermediates\\bundles\\debug\\res\\mipmap-xxhdpi-v4\\light.png"
+    },
+    {
+        "merged": "D:\\Android\\AndroidStudioProjects\\GuiJuTianYuan\\zxing\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xxhdpi-v4\\light.png",
+        "source": "D:\\Android\\AndroidStudioProjects\\GuiJuTianYuan\\zxing\\build\\intermediates\\bundles\\debug\\res\\mipmap-xxhdpi-v4\\light.png"
+    },
+    {
+        "merged": "A:\\Android\\AndroidStudioProjects\\GuiJuTianYuan\\zxing\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xxhdpi-v4\\qrcode_default_scan_line.png",
+        "source": "A:\\Android\\AndroidStudioProjects\\GuiJuTianYuan\\zxing\\build\\intermediates\\bundles\\debug\\res\\mipmap-xxhdpi-v4\\qrcode_default_scan_line.png"
+    }
+]

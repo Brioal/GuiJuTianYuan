@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:orientation="vertical"
+    app:cardCornerRadius="5dp"
+    app:cardBackgroundColor="@color/colorWhite">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <com.brioal.guijutianyuan.view.CircleImageView
+                android:id="@+id/item_find_head"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@mipmap/ic_launcher" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:textColor="@color/lightBlack"
+                    android:id="@+id/item_find_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="名称"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/item_find_time"
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/lightBlack"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="时间"
+                    android:textSize="13sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/item_find_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@color/lightBlack"
+            android:maxLines="5"
+            android:ellipsize="end"
+            android:text="内容"
+            android:textSize="17sp" />
+
+        <GridView
+            android:id="@+id/item_find_gridview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </GridView>
+
+        <!--底部布局-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="8dp"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center_vertical|right"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/item_find_parise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/colorTrans"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/ic_parise"
+                    android:gravity="center"
+                    android:text="100"
+                    android:textColor="@color/colorBlankLight" />
+
+                <CheckBox
+                    android:id="@+id/item_find_commit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/colorTrans"
+                    android:button="@null"
+                    android:drawableLeft="@mipmap/ic_commit"
+                    android:gravity="center"
+                    android:text="100"
+                    android:textColor="@color/colorBlankLight" />
+
+                <CheckBox
+                    android:id="@+id/item_find_collect"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/colorTrans"
+                    android:button="@null"
+                    android:checked="false"
+                    android:drawableLeft="@drawable/ic_collect"
+                    android:gravity="center"
+                    android:text="100"
+                    android:textColor="@color/colorBlankLight" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

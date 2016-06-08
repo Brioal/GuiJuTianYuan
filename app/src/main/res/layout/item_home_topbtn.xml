@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/home_topBtn1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@color/colorTrans"
+        android:drawableTop="@mipmap/ic_juhui"
+        android:gravity="center"
+        android:text="文字" />
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lightBlack" />
+
+    <Button
+        android:id="@+id/home_topBtn2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@color/colorTrans"
+        android:drawableTop="@mipmap/ic_juhui"
+        android:gravity="center"
+        android:text="文字" />
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lightBlack" />
+
+    <Button
+        android:id="@+id/home_topBtn3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@color/colorTrans"
+        android:drawableTop="@mipmap/ic_juhui"
+        android:gravity="center"
+        android:text="文字" />
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/lightBlack" />
+
+    <Button
+        android:id="@+id/home_topBtn4"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@color/colorTrans"
+        android:drawableTop="@mipmap/ic_juhui"
+        android:gravity="center"
+        android:text="文字" />
+
+
+</LinearLayout>

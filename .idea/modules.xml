@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GuiJuTianYuan.iml" filepath="$PROJECT_DIR$/GuiJuTianYuan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/circlrbutton/circlrbutton.iml" filepath="$PROJECT_DIR$/circlrbutton/circlrbutton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recylerviewlibrary/recylerviewlibrary.iml" filepath="$PROJECT_DIR$/recylerviewlibrary/recylerviewlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zxing/zxing.iml" filepath="$PROJECT_DIR$/zxing/zxing.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorPrimary"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/toolbar_location"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorTrans"
+        android:clickable="true"
+        android:drawableRight="@mipmap/ic_location"
+        android:gravity="center"
+        android:padding="6dp"
+        android:text="定位"
+        android:textColor="@color/colorWhite" />
+
+
+    <TextView
+        android:id="@+id/toolbar_query"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/search_bg"
+        android:clickable="true"
+        android:drawableLeft="@mipmap/ic_search"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="输入关键字搜索"
+        android:textColor="@color/colorWhite" />
+
+    <ImageButton
+        android:id="@+id/toolBar_msg"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="@color/colorTrans"
+        android:clickable="true"
+        android:scaleType="centerInside"
+        android:src="@mipmap/ic_msg" />
+</LinearLayout>

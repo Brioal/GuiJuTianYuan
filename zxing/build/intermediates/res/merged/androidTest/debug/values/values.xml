@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <declare-styleable name="QRCodeView"><attr format="dimension|reference" name="qrcv_topOffset"/><attr format="dimension|reference" name="qrcv_cornerSize"/><attr format="dimension|reference" name="qrcv_cornerLength"/><attr format="color|reference" name="qrcv_cornerColor"/><attr format="dimension|reference" name="qrcv_rectWidth"/><attr format="color|reference" name="qrcv_maskColor"/><attr format="dimension|reference" name="qrcv_scanLineSize"/><attr format="color|reference" name="qrcv_scanLineColor"/><attr format="dimension|reference" name="qrcv_scanLineHorizontalMargin"/><attr format="boolean" name="qrcv_isShowDefaultScanLineDrawable"/><attr format="reference" name="qrcv_customScanLineDrawable"/><attr format="dimension|reference" name="qrcv_borderSize"/><attr format="color|reference" name="qrcv_borderColor"/><attr format="integer" name="qrcv_animTime"/></declare-styleable>
+</resources>
